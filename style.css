@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 1140px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.d-none {
+  display: none;
+}
+.btn {
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: none;
+}
+
+/* --------------------Start Header Section---------------------------- */
+header {
+  padding: 32px 0;
+}
+.header__right {
+  align-items: flex-start;
+}
+.header__right-img {
+  margin-left: 14px;
+  margin-top: 5px;
+}
+.header__link {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 12px 15px;
+  margin: 0 3px;
+}
+
+.header__btn {
+  padding: 22px 33px;
+  margin-left: 20px;
+}
+.phone-holder {
+  margin-left: 15px;
+}
+.phone-holder a {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: block;
+}
+.phone-holder span {
+  display: block;
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: right;
+}
+
+/* --------------------End Header Section---------------------------- */
+.section__left h3 {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.span1 {
+  color: #6b5af9;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.span2 {
+  color: #6b5af9;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section__left {
+  width: 565px;
+}
+.section__left-button {
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.section__right {
+  width: 880px;
+}

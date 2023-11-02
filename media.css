@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  .header__center,
+  .header__btn span,
+  .header__right,
+  .header__logo {
+    display: none;
+  }
+  .header__btn {
+    margin-left: 0;
+  }
+
+  .header__btn img,
+  .header__center-logo,
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .phone-holder a {
+    font-size: 19px;
+  }
+}
